@@ -59,7 +59,7 @@ function draw() {
   for (var i = 0; i < plinkos.length; i++) {
     plinkos[i].display();   
   }
-  if(frameCount%90===0){
+  if(frameCount%20===0){
     particles.push(new Particles(random(25,775),10,10))
   }
   //display the paricles 
